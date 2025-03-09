@@ -1,0 +1,34 @@
+
+body {
+    margin: 2%;
+    border: 1px solid black;
+    background-color: #b3b3b3;
+}
+
+#image {
+    width: 575px;
+    height: 650px;
+    line-height: 650px;
+    border: 5px solid black;
+    margin: 0 auto;
+    background-color: #8e68ff; /* Fixed syntax */
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensures the image scales properly */
+    background-position: center; /* Centers the image */
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 150%;
+    margin-bottom: 25px;
+}
+
+.preview {
+    width: 100px; /* Fixed size for better scaling */
+    margin-left: 17%;
+    border: 10px solid black;
+    display: inline-block; /* Keeps images inline */
+}
+
+img {
+    width: 95%;
+    display: block; /* Removes unwanted spacing below images */
+}
